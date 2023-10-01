@@ -1,0 +1,68 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --btn: #75d973;
+  --text-color-primary: #000000;
+  --text-color-secondary: #6a6a6a;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+
+.container-login {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.right-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-text {
+}
+
+.login-text h1 {
+  font-size: 36px;
+  color: var(--text-color-primary);
+}
+
+.social {
+  padding: 20px 0px 10px 0;
+}
+
+span {
+  display: block;
+  font-size: ;
+  color: var(--text-color-secondary);
+  padding-bottom: 10px;
+}
+
+.login-text p {
+  font-size: ;
+  color: var(--text-color-secondary);
+  padding-bottom: 20px;
+}
+
+img {
+  height: 100vh;
+}
+
+i img {
+  height: 4vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
