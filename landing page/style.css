@@ -28,9 +28,8 @@ body {
 
 .ellipse2 {
   position: absolute;
-  bottom: 0;
   right: 0;
-  z-index: -11;
+  bottom: -105px;
 }
 
 .nav-landing {
@@ -86,6 +85,7 @@ body {
 }
 
 .hero-landing {
+  position: relative;
   display: grid;
   grid-template-columns: auto auto;
   margin-top: 120px;
@@ -118,4 +118,38 @@ body {
   display: block;
   background-color: #a4ffc9;
   border: 0;
+}
+
+.about-landing {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.tag {
+  font-size: 80px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+.tag span {
+  background-color: #75d973;
+  border: none;
+  color: black;
+  padding: 10px 40px;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  opacity: 0.8;
+}
+
+.about-landing p {
+  font-size: 46px;
+  color: #000000;
+  opacity: 0.8;
+  margin-bottom: 100px;
+}
+
+.about-landing img {
+  object-fit: cover;
 }
