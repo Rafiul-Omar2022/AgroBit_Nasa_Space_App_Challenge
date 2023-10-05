@@ -158,6 +158,11 @@ body {
   object-fit: cover;
 }
 
+.nasa-api {
+  text-align: center;
+  margin: 200px 0 50px 0;
+}
+
 .feature-landing {
   margin-top: 300px;
   text-align: center;
